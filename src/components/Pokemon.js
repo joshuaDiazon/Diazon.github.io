@@ -38,7 +38,7 @@ const Pokemon = () => {
                 }}
               >
                Delete pokemon
-              </Button>
+             </Button>
           </div>
         );
       })}
