@@ -35,7 +35,7 @@ const Pokemon = () => {
                   dispatch(deletePokemon({ id: list.id }));
                 }}
               >
-                Delete pokemon
+               Delete pokemon
               </Button>
           </div>
         );
