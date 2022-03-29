@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./components/Pokemon.css";
+import PokeList from "./components/PokeList";
+import Strong from "./components/Pages/Power/Strong";
+import Favorites from "./components/Pages/Favorites";
+import Weak from "./components/Pages/Power/Weak";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <main>
+        <Router>
+          <Routes>
+            <Route path="/" element={<PokeList/>}/>
+            <Route path="/power" element={<Strong/>}/>
+            <Route path="/weak" element={<Weak/>}/>
+            <Route path="/fav" element={<Favorites/>}/>
+          </Routes>
+        </Router>
+      </main>
     </div>
   );
 }
