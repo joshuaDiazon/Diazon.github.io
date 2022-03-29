@@ -15,7 +15,7 @@ function App() {
             <Route path="/weak" element={<Weak/>}/>
             <Route path="/fav" element={<Favorites/>}/>
           </Routes>
-        </Router>
+       </Router>
       </main>
     </div>
   );
