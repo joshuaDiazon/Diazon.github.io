@@ -2,10 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     data: [
-
-
         {
-            id: "p1",
+            id: 1,
             name: "Clefairy",
             src:"clefairy.png",
             base_experience: 113,
@@ -14,7 +12,7 @@ const initialState = {
             weight: 75,
         },
         {
-            id: "p2",
+            id: 2,
             name: "Pickachu",
             src:"pikachu.jpeg",
             base_experience: 160,
@@ -23,7 +21,7 @@ const initialState = {
             weight: 80,
         },
         {
-            id: "p3",
+            id: 3,
             name: "Charmander",
             src:"charmander.jpeg",
             base_experience: 115,
@@ -32,7 +30,7 @@ const initialState = {
             weight: 80,
         },
         {
-            id: "p4",
+            id: 4,
             name: "Bulbasaur",
             src:"bulbasaur.jpeg",
             base_experience: 155,
@@ -41,7 +39,7 @@ const initialState = {
             weight: 80,
         },
         {
-            id: "p5",
+            id:5,
             name: "Arboc",
             src:"arboc.jpeg",
             base_experience: 155,
@@ -50,7 +48,7 @@ const initialState = {
             weight: 80,
         },
         {
-            id: "p6",
+            id:6,
             name: "Venonat",
             src:"venonat.jpeg",
             base_experience: 110,
@@ -59,7 +57,7 @@ const initialState = {
             weight: 80,
         },
         {
-            id: "p7",
+            id: 7,
             name: "Squirtle",
             src:"squirtle.jpeg",
             base_experience: 114,
@@ -68,7 +66,7 @@ const initialState = {
             weight: 80,
         },
         {
-            id: "p8",
+            id: 8,
             name: "Caterpie",
             src:"caterpie.jpeg",
             base_experience: 99,

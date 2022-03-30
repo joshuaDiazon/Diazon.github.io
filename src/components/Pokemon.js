@@ -13,10 +13,11 @@ const Pokemon = () => {
     dispatch(addToFav(list));
     navigate("/fav")
   };
-
+   
+   
   return (
     <Card className="card">
-      {pokemons.map((list) => {
+       {pokemons.map((list) => {
         return (
           <div className="pokemon">
             <h2> Name: {list.name}</h2>
@@ -28,7 +29,7 @@ const Pokemon = () => {
               <div> Weight: {list.weight}</div>
             </div>
 
-              <Button type="primary" className="add" onClick={() => handleAdd(list)}>
+              <Button type="primary" className="add" onClick={() => handleAdd({id:list.id , name: list.name , src: list.src})}>
                 Add to favorite
               </Button>
               <Button type="primary"

@@ -81,6 +81,7 @@ button {
 .fav-pokemon {
   display: flex;
   justify-content: center;
+  color: #f2f2f2;
 }
 .fav-pokemon,
 h1,
